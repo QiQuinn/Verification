@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="verificationapp" />
+        <module name="verificationbrowze" />
+        <module name="verificationcore" />
+        <module name="verificationdemo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="verification" target="1.8" />
+      <module name="verificationapp" target="1.8" />
+      <module name="verificationbrowze" target="1.8" />
+      <module name="verificationcore" target="1.8" />
+      <module name="verificationdemo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

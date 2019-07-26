@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/verification.iml" filepath="$PROJECT_DIR$/verification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/verificationapp/verificationapp.iml" filepath="$PROJECT_DIR$/verificationapp/verificationapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/verificationbrowze/verificationbrowze.iml" filepath="$PROJECT_DIR$/verificationbrowze/verificationbrowze.iml" />
+      <module fileurl="file://$PROJECT_DIR$/verificationcore/verificationcore.iml" filepath="$PROJECT_DIR$/verificationcore/verificationcore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/verificationdemo/verificationdemo.iml" filepath="$PROJECT_DIR$/verificationdemo/verificationdemo.iml" />
+    </modules>
+  </component>
+</project>
