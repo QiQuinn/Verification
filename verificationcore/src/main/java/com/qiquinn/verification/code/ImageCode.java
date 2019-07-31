@@ -10,24 +10,16 @@ import java.time.LocalDateTime;
  * @Date:Created in 2019/7/30
  * @Modified By:
  */
-public class ImageCode
+public class ImageCode extends BaseCode
 {
     private BufferedImage image;
-    private String code;
-    private LocalDateTime expireTime;
+
     private String url;
 
     public ImageCode(BufferedImage image,String code,int loseTime)
     {
+        super(code,loseTime);
         this.image = image;
-        this.code = code;
-        this.expireTime = LocalDateTime.now().plusSeconds(loseTime);
-    }
-
-    public ImageCode(BufferedImage iamge, String code, LocalDateTime expireTime) {
-        this.image = iamge;
-        this.code = code;
-        this.expireTime = expireTime;
     }
 
     public String getUrl() {
@@ -46,31 +38,4 @@ public class ImageCode
         this.image = image;
     }
 
-    public String getCode() {
-        return code;
-    }
-
-    public void setCode(String code) {
-        this.code = code;
-    }
-
-    public LocalDateTime getExpireTime() {
-        return expireTime;
-    }
-
-    public void setExpireTime(LocalDateTime expireTime) {
-        this.expireTime = expireTime;
-    }
-
-    public boolean isExpried()
-    {
-        if (expireTime.isBefore(LocalDateTime.now()))
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-    }
 }

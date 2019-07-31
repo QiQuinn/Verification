@@ -2,18 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33d8357f-4cd3-4e3a-802d-0330b935de8d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/App.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/SecurityVerification.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/verificationbrowze/target/classes/static/demo-login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/verificationdemo/target/classes/application.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/verificationdemo/target/classes/static/demo-login1.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verificationapp/verificationapp.iml" afterPath="$PROJECT_DIR$/verificationapp/verificationapp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verificationbrowze/verificationbrowze.iml" afterPath="$PROJECT_DIR$/verificationbrowze/verificationbrowze.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verificationcore/pom.xml" afterPath="$PROJECT_DIR$/verificationcore/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verificationcore/verificationcore.iml" afterPath="$PROJECT_DIR$/verificationcore/verificationcore.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verificationdemo/pom.xml" afterPath="$PROJECT_DIR$/verificationdemo/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verificationdemo/src/main/java/com/qiquinn/verification/controller/UserController.java" afterPath="$PROJECT_DIR$/verificationdemo/src/main/java/com/qiquinn/verification/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verificationbrowze/src/main/java/com/qiquinn/verification/MyUserDetailService.java" afterPath="$PROJECT_DIR$/verificationbrowze/src/main/java/com/qiquinn/verification/MyUserDetailService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verificationbrowze/src/main/java/com/qiquinn/verification/configer/BrowserSercurityConfig.java" afterPath="$PROJECT_DIR$/verificationbrowze/src/main/java/com/qiquinn/verification/configer/BrowserSercurityConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verificationbrowze/src/main/java/com/qiquinn/verification/controller/BrowzeSecurityController.java" afterPath="$PROJECT_DIR$/verificationbrowze/src/main/java/com/qiquinn/verification/controller/BrowzeSecurityController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verificationbrowze/src/main/java/com/qiquinn/verification/result/BrowzeAuthenticationFail.java" afterPath="$PROJECT_DIR$/verificationbrowze/src/main/java/com/qiquinn/verification/result/BrowzeAuthenticationFail.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verificationbrowze/src/main/resources/static/demo-login.html" afterPath="$PROJECT_DIR$/verificationbrowze/src/main/resources/static/demo-login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/ImageCode.java" afterPath="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/ImageCode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/ImageCodeCreater.java" afterPath="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/ImageCodeCreater.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/configuration/ValiadateCodeBeanConfig.java" afterPath="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/configuration/ValiadateCodeBeanConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/controller/VirificationImageController.java" afterPath="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/controller/VirificationImageController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/filter/VirificationImageFilter.java" afterPath="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/filter/VirificationImageFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/properties/BrowzeProperties.java" afterPath="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/properties/BrowzeProperties.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/properties/ImageCodeProperties.java" afterPath="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/properties/ImageCodeProperties.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/properties/ValidateCodeProperties.java" afterPath="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/properties/ValidateCodeProperties.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verificationdemo/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/verificationdemo/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verificationdemo/src/main/test/UserControllerTest.java" afterPath="$PROJECT_DIR$/verificationdemo/src/main/test/UserControllerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verificationdemo/verificationdemo.iml" afterPath="$PROJECT_DIR$/verificationdemo/verificationdemo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verificationdemo/src/main/resources/static/demo-login1.html" afterPath="$PROJECT_DIR$/verificationdemo/src/main/resources/static/demo-login1.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/ValiadateCodeGenerator.java" afterPath="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/api/ValiadateCodeGenerator.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,67 +51,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="VirificationImageFilter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="VirificationImageFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/filter/VirificationImageFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="36" column="39" lean-forward="false" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+            <state relative-caret-position="745">
+              <caret line="83" column="9" lean-forward="false" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#validata#0;class#VirificationImageFilter#0" expanded="false" />
-                <element signature="e#4157#4158#0" expanded="true" />
-                <element signature="e#4208#4209#0" expanded="true" />
-                <element signature="e#4438#4439#0" expanded="true" />
-                <element signature="e#4474#4475#0" expanded="true" />
-                <element signature="e#4525#4526#0" expanded="true" />
-                <element signature="e#4563#4564#0" expanded="true" />
-                <element signature="e#4634#4635#0" expanded="true" />
-                <element signature="e#4688#4689#0" expanded="true" />
-                <element signature="e#4753#4754#0" expanded="true" />
-                <element signature="e#4798#4799#0" expanded="true" />
-                <element signature="e#5004#5005#0" expanded="true" />
-                <element signature="e#5038#5039#0" expanded="true" />
-                <element signature="e#5100#5101#0" expanded="true" />
-                <element signature="e#5146#5147#0" expanded="true" />
-                <element signature="e#5182#5183#0" expanded="true" />
-                <element signature="e#5209#5210#0" expanded="true" />
-                <element signature="e#5254#5255#0" expanded="true" />
-                <element signature="e#5286#5287#0" expanded="true" />
+                <element signature="method#afterPropertiesSet#0;class#VirificationImageFilter#0" expanded="false" />
+                <element signature="method#setAuthenticationFailureHandler#0;class#VirificationImageFilter#0" expanded="false" />
+                <element signature="method#setSecurityCoreProperties#0;class#VirificationImageFilter#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImageCode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/ImageCode.java">
+      <file leaf-file-name="PhoneCodeFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/filter/PhoneCodeFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+            <state relative-caret-position="229">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#813#814#0" expanded="true" />
-                <element signature="e#851#852#0" expanded="true" />
-                <element signature="e#881#882#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VirificationImageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/controller/VirificationImageController.java">
+      <file leaf-file-name="PhoneCodeProcessor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/PhoneCodeProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="45" column="47" lean-forward="false" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+            <state relative-caret-position="337">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyUserDetailService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/verificationbrowze/src/main/java/com/qiquinn/verification/MyUserDetailService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ValiadateCodeBeanConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/configuration/ValiadateCodeBeanConfig.java">
+      <file leaf-file-name="PhoneCodeAuthenticationFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/phone/PhoneCodeAuthenticationFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="33" />
+            <state relative-caret-position="325">
+              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,12 +112,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/verificationdemo/src/main/resources/application.yml">
+      <file leaf-file-name="PhoneCodeAuthenticationProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/phone/PhoneCodeAuthenticationProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="157">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="24" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,6 +141,14 @@
       <find>whenQuerySuccess</find>
       <find>getI</find>
       <find>SecurityCoreProperties</find>
+      <find>phoneCodeCreater</find>
+      <find>System.out.println(</find>
+      <find>imageCodeCreater</find>
+      <find>getCredentials</find>
+      <find>getRamdomNumber</find>
+      <find>System</find>
+      <find>MyUserDetailService</find>
+      <find>UserDetailsService</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,52 +162,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/verificationapp/pom.xml" />
-        <option value="$PROJECT_DIR$/verificationbrowze/pom.xml" />
-        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/SecurityVerification.java" />
-        <option value="$PROJECT_DIR$/verificationdemo/src/main/java/UserControllerTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/verificationdemo/src/main/java/com/qiquinn/verification/App.java" />
-        <option value="$PROJECT_DIR$/verificationdemo/src/main/java/com/qiquinn/verification/mould/User.java" />
-        <option value="$PROJECT_DIR$/verificationdemo/src/main/java/com/qiquinn/verification/filter/FilterConfiguration.java" />
-        <option value="$PROJECT_DIR$/verificationdemo/src/main/java/com/qiquinn/verification/mould/UpLoadFile.java" />
-        <option value="$PROJECT_DIR$/verificationdemo/src/main/java/com/qiquinn/verification/filter/TimeFilter.java" />
-        <option value="$PROJECT_DIR$/verificationdemo/pom.xml" />
-        <option value="$PROJECT_DIR$/verificationdemo/src/main/java/com/qiquinn/verification/controller/FileController.java" />
-        <option value="$PROJECT_DIR$/verificationbrowze/src/main/java/com/qiquinn/verification/MyUserDetailService.java" />
-        <option value="$PROJECT_DIR$/verificationbrowze/src/main/java/com/qiquinn/verification/controller/BrowzeSecurityController/BrowzeSecurityController.java" />
-        <option value="$PROJECT_DIR$/verificationdemo/src/main/resources/demo-login.html" />
-        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/configer/SecurityConfiguration/SecurityCoreConfiguration.java" />
-        <option value="$PROJECT_DIR$/verificationdemo/src/main/resources/demo-login1.html" />
-        <option value="$PROJECT_DIR$/verificationbrowze/src/main/resources/demo-login.html" />
-        <option value="$PROJECT_DIR$/verificationdemo/src/main/test/UserControllerTest.java" />
-        <option value="$PROJECT_DIR$/verificationcore/pom.xml" />
         <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/properties/SecurityProperties.java" />
         <option value="$PROJECT_DIR$/verificationdemo/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/verificationbrowze/src/main/java/com/qiquinn/verification/controller/BrowzeSecurityController.java" />
         <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/properties/LoginType.java" />
         <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/properties/LoginResultType.java" />
-        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/properties/BrowzeProperties.java" />
         <option value="$PROJECT_DIR$/verificationbrowze/src/main/java/com/qiquinn/verification/BrowzeAuthenticationSuccess.java" />
         <option value="$PROJECT_DIR$/verificationbrowze/src/main/java/com/qiquinn/verification/BrowzeAuthenticationFail.java" />
         <option value="$PROJECT_DIR$/verificationdemo/src/main/java/com/qiquinn/verification/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/verificationbrowze/src/main/resources/static/demo-login.html" />
         <option value="$PROJECT_DIR$/verificationbrowze/src/main/java/com/qiquinn/verification/result/BrowzeAuthenticationSuccess.java" />
         <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/VaildataException.java" />
-        <option value="$PROJECT_DIR$/verificationbrowze/src/main/java/com/qiquinn/verification/configer/BrowserSercurityConfig.java" />
-        <option value="$PROJECT_DIR$/verificationbrowze/src/main/java/com/qiquinn/verification/result/BrowzeAuthenticationFail.java" />
-        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/properties/ValidateCodeProperties.java" />
         <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/ImageCodeUtils.java" />
-        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/properties/ImageCodeProperties.java" />
         <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/properties/SecurityCoreProperties.java" />
         <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/configuration/SecurityCoreConfiguration.java" />
-        <option value="$PROJECT_DIR$/verificationdemo/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/ValiadateCodeGenerator.java" />
+        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/api/CodeValiadGenerador.java" />
+        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/ImageCodeValiade.java" />
+        <option value="$PROJECT_DIR$/verificationbrowze/src/main/resources/static/demo-login.html" />
+        <option value="$PROJECT_DIR$/verificationbrowze/src/main/java/com/qiquinn/verification/result/BrowzeAuthenticationFail.java" />
+        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/properties/BrowzeProperties.java" />
+        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/properties/ImageCodeProperties.java" />
+        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/BaseCode.java" />
+        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/api/PhoneCodeSender.java" />
         <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/ImageCodeCreater.java" />
-        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/configuration/ValiadateCodeBeanConfig.java" />
-        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/controller/VirificationImageController.java" />
+        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/api/PhoneCodeCreater.java" />
+        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/properties/ValidateCodeProperties.java" />
         <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/ImageCode.java" />
+        <option value="$PROJECT_DIR$/verificationdemo/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/verificationdemo/src/main/java/com/qiquinn/verification/code/DemoImageCodeGenerator.java" />
+        <option value="$USER_HOME$/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar!/org/apache/commons/lang/StringUtils.class" />
+        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/properties/PhoneCodeProperties.java" />
+        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/PhoneCode.java" />
+        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/api/ValidateCodeProcessor.java" />
+        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/api/ValiadateCodeGenerator.java" />
+        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/ImageCodeProcessor.java" />
+        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/controller/VirificationImageController.java" />
+        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/impl/AbstractValidateProcessor.java" />
+        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/configuration/ValiadateCodeBeanConfig.java" />
+        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/phone/PhoneCodeAuthentication.java" />
+        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/phone/PhoneCodeAuthenticationToken.java" />
+        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/filter/PhoneCodeAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/phone/PhoneCodeAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/phone/PhoneCodeAuthenticationProvider.java" />
+        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/configuration/PhoneCodeAuthenticationConfiger.java" />
+        <option value="$PROJECT_DIR$/verificationbrowze/src/main/java/com/qiquinn/verification/controller/BrowzeSecurityController.java" />
+        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/DefualtPhoneSender.java" />
+        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/PhoneCodeCreater.java" />
+        <option value="$PROJECT_DIR$/verificationbrowze/src/main/java/com/qiquinn/verification/configer/BrowserSercurityConfig.java" />
+        <option value="$PROJECT_DIR$/verificationdemo/src/main/resources/static/demo-login1.html" />
+        <option value="$PROJECT_DIR$/verificationbrowze/src/main/java/com/qiquinn/verification/MyUserDetailService.java" />
         <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/filter/VirificationImageFilter.java" />
+        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/PhoneCodeProcessor.java" />
+        <option value="$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/filter/PhoneCodeFilter.java" />
       </list>
     </option>
   </component>
@@ -212,8 +228,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -233,8 +249,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -247,107 +261,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="verification" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="verification" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="verificationdemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="verification" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="verification" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="verificationdemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="verification" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="verification" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="verificationdemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="verification" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="verification" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="verificationcore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="verification" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="verification" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="verificationcore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -355,7 +273,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="SecurityCoreProperties&#9;PSI&#9;JAVA://com.qiquinn.verification.configer.BrowserSercurityConfig#securityCoreProperties&#10;iamgeCode&#9;null&#9;null&#10;SESSION_KEY&#9;PSI&#9;JAVA://com.qiquinn.verification.controller.VirificationImageController#SESSION_KEY" />
+    <property name="SearchEverywhereHistoryKey" value="sessionStrategy&#9;PSI&#9;JAVA://com.qiquinn.verification.code.impl.AbstractValidateProcessor#sessionStrategy&#10;loadUserByUsername&#9;PSI&#9;JAVA://com.qiquinn.verification.MyUserDetailService#loadUserByUsername&#10;UserDetailsService&#9;PSI&#9;JAVA://com.qiquinn.verification.configer.BrowserSercurityConfig#userDetailsService&#10;MyUserDetailService&#9;PSI&#9;JAVA://com.qiquinn.verification.MyUserDetailService&#10;SessionStrategy&#9;PSI&#9;JAVA://com.qiquinn.verification.code.impl.AbstractValidateProcessor#sessionStrategy&#10;SESSION_PHONECODE_KEY&#9;PSI&#9;JAVA://com.qiquinn.verification.controller.VirificationImageController#SESSION_PHONECODE_KEY&#10;System.out.println&#9;null&#9;null&#10;UserNamePasswordAuthenticationF&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.class&#10;UserNamePassword&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/authentication/UsernamePasswordAuthenticationToken.class&#10;userNamePasswordA&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/authentication/UsernamePasswordAuthenticationToken.class&#10;phoneCodeCreater&#9;null&#9;null&#10;imageCodeCreater&#9;PSI&#9;JAVA://com.qiquinn.verification.configuration.ValiadateCodeBeanConfig#imageCodeCreater&#10;getLoginPage&#9;PSI&#9;JAVA://com.qiquinn.verification.properties.BrowzeProperties#getLoginPage&#10;BrowzeProperties&#9;PSI&#9;JAVA://com.qiquinn.verification.properties.BrowzeProperties&#10;getLoginResultType&#9;PSI&#9;JAVA://com.qiquinn.verification.properties.BrowzeProperties#getLoginResultType&#10;LoginResultType&#9;PSI&#9;JAVA://com.qiquinn.verification.properties.BrowzeProperties#loginResultType&#10;ImageCodeCreater&#9;PSI&#9;JAVA://com.qiquinn.verification.controller.VirificationImageController#imageCodeCreater&#10;SecurityCoreProperties&#9;PSI&#9;JAVA://com.qiquinn.verification.controller.BrowzeSecurityController#securityCoreProperties&#10;virificationImageFilter&#9;PSI&#9;JAVA://com.qiquinn.verification.filter.VirificationImageFilter&#10;VirificationImageFilter&#9;FILE&#9;file://D:/verification/verificationcore/src/main/java/com/qiquinn/verification/filter/VirificationImageFilter.java&#10;iamgeCode&#9;null&#9;null&#10;SESSION_KEY&#9;PSI&#9;JAVA://com.qiquinn.verification.controller.VirificationImageController#SESSION_KEY" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -877,7 +795,8 @@
       <workItem from="1564108355752" duration="15553000" />
       <workItem from="1564132065251" duration="3113000" />
       <workItem from="1564359527326" duration="25142000" />
-      <workItem from="1564447112833" duration="27785000" />
+      <workItem from="1564447112833" duration="27973000" />
+      <workItem from="1564533359186" duration="33353000" />
     </task>
     <servers />
   </component>
@@ -914,7 +833,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76263000" />
+    <option name="totallyTimeSpent" value="109804000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -926,12 +845,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0996144" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09488273" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -939,19 +858,18 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34231806" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34164858" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24528302" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31344903" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19023137" sideWeight="0.49233717" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24520256" sideWeight="0.49233717" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16388175" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16131106" sideWeight="0.50766283" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -959,6 +877,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -971,19 +890,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/filter/VirificationImageFilter.java</url>
-          <line>60</line>
+          <url>file://$PROJECT_DIR$/verificationbrowze/src/main/java/com/qiquinn/verification/MyUserDetailService.java</url>
+          <line>34</line>
           <properties />
-          <option name="timeStamp" value="19" />
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/filter/VirificationImageFilter.java</url>
-          <line>47</line>
+          <url>file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/filter/PhoneCodeFilter.java</url>
+          <line>75</line>
           <properties />
-          <option name="timeStamp" value="22" />
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="23" />
+      <option name="time" value="50" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -992,475 +911,450 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/verificationapp/pom.xml">
+    <entry file="jar://C:/JDK/src.zip!/java/io/PrintStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="217">
+          <caret line="803" column="16" lean-forward="false" selection-start-line="803" selection-start-column="16" selection-end-line="803" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/verificationdemo/src/main/java/com/qiquinn/verification/controller.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1032">
-          <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verificationdemo/src/main/java/com/qiquinn/verification/mould/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/junit/junit/4.12/junit-4.12.jar!/org/junit/Test.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verificationdemo/src/main/java/com/qiquinn/verification/mould/UpLoadFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#221#222#0" expanded="false" />
-            <element signature="e#253#254#0" expanded="false" />
-            <element signature="e#284#285#0" expanded="false" />
-            <element signature="e#311#312#0" expanded="false" />
-            <element signature="e#351#352#0" expanded="false" />
-            <element signature="e#383#384#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verificationdemo/src/main/java/com/qiquinn/verification/filter/FilterConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-139">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verificationdemo/src/main/java/com/qiquinn/verification/filter/TimeFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.16/tomcat-embed-core-8.5.16.jar!/org/apache/catalina/connector/ResponseFacade.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.16/tomcat-embed-core-8.5.16.jar!/org/apache/catalina/connector/Response.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="288" column="0" lean-forward="false" selection-start-line="288" selection-start-column="0" selection-end-line="288" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verificationdemo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/core/userdetails/User.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/security/spring-security-crypto/4.2.3.RELEASE/spring-security-crypto-4.2.3.RELEASE.jar!/org/springframework/security/crypto/password/PasswordEncoder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verificationdemo/src/main/test/UserControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verificationdemo/src/main/java/com/qiquinn/verification/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot/1.5.6.RELEASE/spring-boot-1.5.6.RELEASE.jar!/org/springframework/boot/context/properties/ConfigurationProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verificationcore/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="58" column="49" lean-forward="false" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verificationdemo/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verificationbrowze/src/main/java/com/qiquinn/verification/controller/BrowzeSecurityController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetails.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-142">
-          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/JDK/src.zip!/java/awt/Graphics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="199" column="33" lean-forward="false" selection-start-line="199" selection-start-column="25" selection-end-line="199" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verificationdemo/src/main/java/com/qiquinn/verification/controller/FileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verificationdemo/src/main/java/com/qiquinn/verification/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="24" column="59" lean-forward="false" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
-          <folding>
-            <element signature="e#740#741#0" expanded="false" />
-            <element signature="e#767#768#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE.jar!/org/springframework/security/web/authentication/AuthenticationFailureHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verificationbrowze/src/main/java/com/qiquinn/verification/result/BrowzeAuthenticationSuccess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE.jar!/org/springframework/security/web/authentication/logout/LogoutFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE.jar!/org/springframework/security/web/header/HeaderWriterFilter.class">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE.jar!/org/springframework/security/web/context/SecurityContextPersistenceFilter.class">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar!/org/springframework/web/context/request/ServletWebRequest.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state relative-caret-position="219">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <element signature="e#2161#2162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verificationdemo/src/main/java/com/qiquinn/verification/code/DemoImageCodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/authentication/UsernamePasswordAuthenticationToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="30" column="31" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE.jar!/org/springframework/security/web/FilterChainProxy.class">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/security/spring-security-config/4.2.3.RELEASE/spring-security-config-4.2.3.RELEASE.jar!/org/springframework/security/config/annotation/AbstractConfiguredSecurityBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="172" column="0" lean-forward="false" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
+        <state relative-caret-position="196">
+          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
+    <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/configuration/SecurityCoreConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verificationbrowze/src/main/resources/static/demo-login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verificationbrowze/src/main/java/com/qiquinn/verification/MyUserDetailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="24" column="62" lean-forward="false" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verificationbrowze/src/main/java/com/qiquinn/verification/result/BrowzeAuthenticationFail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/properties/LoginResultType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="312">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/properties/BrowzeProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        <state relative-caret-position="321">
+          <caret line="33" column="40" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#918#919#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/verificationbrowze/src/main/java/com/qiquinn/verification/configer/BrowserSercurityConfig.java">
+    <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/properties/PhoneCodeProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="50" column="48" lean-forward="false" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="288">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/SecurityVerification.java">
+    <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/properties/SecurityCoreProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="263">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/properties/ValidateCodeProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-          <folding>
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="313">
+          <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/properties/SecurityCoreProperties.java">
+    <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/properties/LoginResultType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/properties/ImageCodeProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/ImageCodeUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="52" column="14" lean-forward="true" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/configuration/SecurityCoreConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/VaildataException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        <state relative-caret-position="312">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verificationdemo/src/main/java/com/qiquinn/verification/controller/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verificationdemo/src/main/java/com/qiquinn/verification/filter/FilterConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verificationdemo/src/main/java/com/qiquinn/verification/filter/TimeFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verificationdemo/src/main/java/com/qiquinn/verification/mould/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verificationdemo/src/main/java/com/qiquinn/verification/mould/UpLoadFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/phone/PhoneCodeAuthenticationToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-169">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/configuration/PhoneCodeAuthenticationConfiger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="41" column="61" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/configuration/ValiadateCodeBeanConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verificationbrowze/src/main/java/com/qiquinn/verification/controller/BrowzeSecurityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="56" column="39" lean-forward="true" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verificationbrowze/src/main/java/com/qiquinn/verification/configer/BrowserSercurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="82" column="40" lean-forward="true" selection-start-line="82" selection-start-column="40" selection-end-line="82" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verificationbrowze/src/main/resources/static/demo-login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="26" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verificationdemo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/verificationdemo/src/main/resources/static/demo-login1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="207">
+          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/api/ValidateCodeProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/ImageCodeCreater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-213">
-          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="217">
+          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/ValiadateCodeGenerator.java">
+    <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/ImageCodeProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/configuration/ValiadateCodeBeanConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="33" />
+        <state relative-caret-position="503">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verificationdemo/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/ImageCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/controller/VirificationImageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="45" column="47" lean-forward="false" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+        <state relative-caret-position="409">
+          <caret line="48" column="35" lean-forward="false" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/authentication/ProviderManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE.jar!/org/springframework/security/web/FilterChainProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="169" column="61" lean-forward="true" selection-start-line="169" selection-start-column="16" selection-end-line="169" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar!/org/springframework/web/context/request/ServletRequestAttributes.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="95" column="65" lean-forward="false" selection-start-line="95" selection-start-column="60" selection-end-line="95" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/PhoneCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/PhoneCodeCreater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="29" column="57" lean-forward="true" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/api/ValiadateCodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/DefualtPhoneSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="39" />
+          <folding>
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/api/PhoneCodeSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/social/spring-social-web/1.1.4.RELEASE/spring-social-web-1.1.4.RELEASE.jar!/org/springframework/social/connect/web/SessionStrategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="68" lean-forward="false" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/impl/AbstractValidateProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/PhoneCodeProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/phone/PhoneCodeAuthenticationProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/code/phone/PhoneCodeAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/filter/VirificationImageFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="36" column="39" lean-forward="false" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+        <state relative-caret-position="745">
+          <caret line="83" column="9" lean-forward="false" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#validata#0;class#VirificationImageFilter#0" expanded="false" />
-            <element signature="e#4157#4158#0" expanded="true" />
-            <element signature="e#4208#4209#0" expanded="true" />
-            <element signature="e#4438#4439#0" expanded="true" />
-            <element signature="e#4474#4475#0" expanded="true" />
-            <element signature="e#4525#4526#0" expanded="true" />
-            <element signature="e#4563#4564#0" expanded="true" />
-            <element signature="e#4634#4635#0" expanded="true" />
-            <element signature="e#4688#4689#0" expanded="true" />
-            <element signature="e#4753#4754#0" expanded="true" />
-            <element signature="e#4798#4799#0" expanded="true" />
-            <element signature="e#5004#5005#0" expanded="true" />
-            <element signature="e#5038#5039#0" expanded="true" />
-            <element signature="e#5100#5101#0" expanded="true" />
-            <element signature="e#5146#5147#0" expanded="true" />
-            <element signature="e#5182#5183#0" expanded="true" />
-            <element signature="e#5209#5210#0" expanded="true" />
-            <element signature="e#5254#5255#0" expanded="true" />
-            <element signature="e#5286#5287#0" expanded="true" />
+            <element signature="method#afterPropertiesSet#0;class#VirificationImageFilter#0" expanded="false" />
+            <element signature="method#setAuthenticationFailureHandler#0;class#VirificationImageFilter#0" expanded="false" />
+            <element signature="method#setSecurityCoreProperties#0;class#VirificationImageFilter#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verificationcore/src/main/java/com/qiquinn/verification/filter/PhoneCodeFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verificationbrowze/src/main/java/com/qiquinn/verification/MyUserDetailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

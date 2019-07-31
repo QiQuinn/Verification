@@ -1,9 +1,9 @@
 spring:
   datasource:
-    data-password: 123456
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/verification?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: root
+    password: 123456
   session:
     store-type: none
 server:
@@ -15,9 +15,12 @@ server:
 qiquinn:
   security:
     validate:
+      phonecode:
+        count: 4
+        loseTime: 60
       imagecode:
-        width: 500
-        height: 500
-        url: /user,/user/*
-#    browze:
-#      login-page: /demo-login1.html
+        width: 200
+        height: 50
+#        url: /user,/user/*
+    browze:
+      login-page: /demo-login1.html

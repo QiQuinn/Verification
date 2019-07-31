@@ -43,7 +43,6 @@ public class BrowzeSecurityController
     @ResponseStatus(code = HttpStatus.UNAUTHORIZED)
     public String requestAuthentication(HttpServletRequest request, HttpServletResponse response) throws IOException
     {
-        System.out.println("authentication");
         SavedRequest savedRequest = requestCache.getRequest(request,response);
         if(savedRequest!=null)
         {
@@ -51,7 +50,7 @@ public class BrowzeSecurityController
             System.out.println("引发跳转的URL: "+target);
             if(StringUtils.endsWithIgnoreCase(target,".html"))
             {
-                System.out.println(".html: "+ securityCoreProperties.getBrowze().getLoginPage());
+                System.out.println("只能一级调用.html: "+ securityCoreProperties.getBrowze().getLoginPage());
                 redirectStrategy.sendRedirect(request,response, securityCoreProperties.getBrowze().getLoginPage());
             }
         }

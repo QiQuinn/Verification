@@ -1,9 +1,9 @@
 package com.qiquinn.verification.code;
 
 import com.qiquinn.verification.ImageCodeUtils;
+import com.qiquinn.verification.code.api.ValiadateCodeGenerator;
 import com.qiquinn.verification.properties.SecurityCoreProperties;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.web.bind.ServletRequestUtils;
 
 import javax.servlet.http.HttpServletRequest;
@@ -18,9 +18,8 @@ import java.awt.image.BufferedImage;
 public class ImageCodeCreater implements ValiadateCodeGenerator
 {
     private SecurityCoreProperties securityCoreProperties;
-
     @Override
-    public ImageCode createImageCode(HttpServletRequest request)
+    public ImageCode createCode(HttpServletRequest request)
     {
         int imageWidth = ServletRequestUtils.getIntParameter(request,"width",securityCoreProperties.getValidate().getImagecode().getWidth());
         int imageHeight = ServletRequestUtils.getIntParameter(request,"height",securityCoreProperties.getValidate().getImagecode().getHeight());

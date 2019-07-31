@@ -35,8 +35,7 @@ public class BrowzeAuthenticationFail extends SimpleUrlAuthenticationFailureHand
         {
             response.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
             response.setContentType("application/json;charset=UTF-8");
-            String message = e.getMessage();
-            response.getWriter().write(objectMapper.writeValueAsString(e.getMessage()));
+            response.getWriter().write(objectMapper.writeValueAsString(e.getCause()+" : "+e.getMessage()));
         }
         else
         {

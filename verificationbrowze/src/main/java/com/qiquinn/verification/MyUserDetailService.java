@@ -25,8 +25,10 @@ import java.util.Collection;
 public class MyUserDetailService implements UserDetailsService
 {
     private Logger log = LoggerFactory.getLogger(MyUserDetailService.class);
+
     @Autowired
     private PasswordEncoder passwordEncoder;
+
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         log.info("用户名： "+username);
@@ -35,4 +37,5 @@ public class MyUserDetailService implements UserDetailsService
         authList.add(new SimpleGrantedAuthority("admin"));
         return new User(username,passwordEncoder.encode("123456"),authList);
     }
+
 }

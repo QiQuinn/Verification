@@ -12,6 +12,16 @@ public class ValidateCodeProperties
 {
     private ImageCodeProperties imagecode = new ImageCodeProperties();
 
+    private PhoneCodeProperties phonecode = new PhoneCodeProperties();
+
+    public PhoneCodeProperties getPhonecode() {
+        return phonecode;
+    }
+
+    public void setPhonecode(PhoneCodeProperties phonecode) {
+        this.phonecode = phonecode;
+    }
+
     public ImageCodeProperties getImagecode() {
         return imagecode;
     }

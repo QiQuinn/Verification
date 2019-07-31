@@ -2,11 +2,13 @@ package com.qiquinn.verification.filter;
 
 import com.qiquinn.verification.VaildataException;
 import com.qiquinn.verification.code.ImageCode;
+import com.qiquinn.verification.code.api.ValidateCodeProcessor;
 import com.qiquinn.verification.controller.VirificationImageController;
 import com.qiquinn.verification.properties.SecurityCoreProperties;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;
 import org.springframework.social.connect.web.HttpSessionSessionStrategy;
 import org.springframework.social.connect.web.SessionStrategy;
@@ -37,27 +39,30 @@ public class VirificationImageFilter extends OncePerRequestFilter implements Ini
     private SessionStrategy sessionStrategy = new HttpSessionSessionStrategy();
     @Autowired
     private SecurityCoreProperties securityCoreProperties;
-    //不匹配的路径
+    //匹配的路径
     private AntPathMatcher pathMatcher = new AntPathMatcher();
     //验证码验证的url集合
     private Set<String> urls = new HashSet<>();
 
     @Override
     public void afterPropertiesSet() throws ServletException {
-        System.out.println("======================= BeanCreate =================");
+        super.afterPropertiesSet();
         String[] configStr = StringUtils.split(
                 securityCoreProperties.getValidate().getImagecode().getUrl(),",");
-        for(String url : configStr)
+        if(configStr!=null)
         {
-            urls.add(url);
+            for(String url : configStr)
+            {
+                urls.add(url);
+            }
         }
         urls.add(LoginTableUrl); //表单登陆请求要来验证验证码
-        super.afterPropertiesSet();
     }
 
     @Override
     protected void doFilterInternal(HttpServletRequest request,HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
         boolean action = false;
+        System.out.println(urls.toString());
         for (String url : urls)
         {
             if(pathMatcher.match(url,request.getRequestURI()))
@@ -82,7 +87,7 @@ public class VirificationImageFilter extends OncePerRequestFilter implements Ini
 
     private void validata(ServletWebRequest request) throws ServletRequestBindingException
     {
-        ImageCode codeInSession = (ImageCode)sessionStrategy.getAttribute(request, VirificationImageController.SESSION_KEY);
+        ImageCode codeInSession = (ImageCode)sessionStrategy.getAttribute(request, ValidateCodeProcessor.SESSION_KEY_PREFIX+"image".toUpperCase());
         String codeInRequest = ServletRequestUtils.getStringParameter(request.getRequest(),"imagecode");
         if(StringUtils.isBlank(codeInRequest))
         {
@@ -94,14 +99,14 @@ public class VirificationImageFilter extends OncePerRequestFilter implements Ini
         }
         if(codeInSession.isExpried())
         {
-            sessionStrategy.removeAttribute(request,VirificationImageController.SESSION_KEY);
+            sessionStrategy.removeAttribute(request,ValidateCodeProcessor.SESSION_KEY_PREFIX+"image".toUpperCase());
             throw new VaildataException("验证码过期");
         }
         if(!StringUtils.equals(codeInSession.getCode().toLowerCase(),codeInRequest))
         {
             throw new VaildataException("验证码不匹配");
         }
-        sessionStrategy.removeAttribute(request,VirificationImageController.SESSION_KEY);
+        sessionStrategy.removeAttribute(request,ValidateCodeProcessor.SESSION_KEY_PREFIX+"image".toUpperCase());
     }
 
     public AuthenticationFailureHandler getAuthenticationFailureHandler() {

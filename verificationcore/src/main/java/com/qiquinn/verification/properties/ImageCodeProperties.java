@@ -7,8 +7,8 @@ package com.qiquinn.verification.properties;
  * @Modified By:
  */
 public class ImageCodeProperties {
-    private Integer width ;
-    private Integer height ;
+    private Integer width =90;
+    private Integer height =35 ;
     private Integer length = 4;
     private Integer expireIn = 60;
     private String url;

@@ -1,4 +1,6 @@
-package com.qiquinn.verification.code;
+package com.qiquinn.verification.code.api;
+
+import com.qiquinn.verification.code.BaseCode;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -10,5 +12,5 @@ import javax.servlet.http.HttpServletRequest;
  */
 public interface ValiadateCodeGenerator
 {
-    ImageCode createImageCode(HttpServletRequest request);
+    BaseCode createCode(HttpServletRequest request);
 }

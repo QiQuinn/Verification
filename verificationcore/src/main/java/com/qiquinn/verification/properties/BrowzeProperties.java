@@ -12,6 +12,8 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 public class BrowzeProperties
 {
     private String loginPage = "/demo-login.html";
+    private Integer rememberMeTime = 300;
+    private LoginResultType loginResultType = LoginResultType.JSON;
 
     public LoginResultType getLoginResultType() {
         return loginResultType;
@@ -21,13 +23,19 @@ public class BrowzeProperties
         this.loginResultType = loginResultType;
     }
 
-    private LoginResultType loginResultType = LoginResultType.JSON;
-
     public String getLoginPage() {
         return loginPage;
     }
 
     public void setLoginPage(String loginPage) {
         this.loginPage = loginPage;
+    }
+
+    public Integer getRememberMeTime() {
+        return rememberMeTime;
+    }
+
+    public void setRememberMeTime(Integer rememberMeTime) {
+        this.rememberMeTime = rememberMeTime;
     }
 }
