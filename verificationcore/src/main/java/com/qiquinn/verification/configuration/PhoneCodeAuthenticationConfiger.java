@@ -1,8 +1,9 @@
 package com.qiquinn.verification.configuration;
 
 
-import com.qiquinn.verification.code.phone.PhoneCodeAuthenticationFilter;
-import com.qiquinn.verification.code.phone.PhoneCodeAuthenticationProvider;
+import com.qiquinn.verification.code.validate.phone.PhoneCodeAuthenticationFilter;
+import com.qiquinn.verification.code.validate.phone.PhoneCodeAuthenticationProvider;
+import com.qiquinn.verification.filter.PhoneCodeFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.SecurityConfigurerAdapter;
@@ -30,15 +31,23 @@ public class PhoneCodeAuthenticationConfiger extends SecurityConfigurerAdapter<D
     @Autowired
     private UserDetailsService userDetailsService;
     @Override
-    public void configure(HttpSecurity http) throws Exception {
+    public void configure(HttpSecurity http) throws Exception
+    {
         PhoneCodeAuthenticationFilter phoneCodeAuthenticationFilter = new PhoneCodeAuthenticationFilter();
         phoneCodeAuthenticationFilter.setAuthenticationManager(http.getSharedObject(AuthenticationManager.class));
         phoneCodeAuthenticationFilter.setAuthenticationSuccessHandler(authenticationSuccessHandler);
         phoneCodeAuthenticationFilter.setAuthenticationFailureHandler(authenticationFailureHandler);
 
+        //手机验证码filter控制器
+        PhoneCodeFilter phoneCodeFilter = new PhoneCodeFilter();
+        phoneCodeFilter.setAuthenticationFailureHandler(authenticationFailureHandler);
+        phoneCodeFilter.afterPropertiesSet();
+
         PhoneCodeAuthenticationProvider provider = new PhoneCodeAuthenticationProvider();
         provider.setUserDetailsService(userDetailsService);
         http.authenticationProvider(provider)
+                .addFilterBefore(phoneCodeFilter,UsernamePasswordAuthenticationFilter.class)
                 .addFilterAfter(phoneCodeAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
+
     }
 }

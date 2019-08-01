@@ -1,33 +1,14 @@
-package com.qiquinn.verification.code.phone;
+package com.qiquinn.verification.code.validate.phone;
 
-import com.qiquinn.verification.VaildataException;
-import com.qiquinn.verification.code.BaseCode;
-import com.qiquinn.verification.code.phone.PhoneCodeAuthenticationToken;
-import com.qiquinn.verification.controller.VirificationImageController;
-import com.qiquinn.verification.properties.SecurityCoreProperties;
-import org.apache.commons.lang.StringUtils;
-import org.springframework.beans.factory.InitializingBean;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationServiceException;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter;
-import org.springframework.security.web.authentication.AuthenticationFailureHandler;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
-import org.springframework.social.connect.web.HttpSessionSessionStrategy;
-import org.springframework.social.connect.web.SessionStrategy;
 import org.springframework.util.Assert;
-import org.springframework.web.bind.ServletRequestBindingException;
-import org.springframework.web.bind.ServletRequestUtils;
-import org.springframework.web.context.request.ServletWebRequest;
-import org.springframework.web.filter.OncePerRequestFilter;
 
-import javax.servlet.FilterChain;
-import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
 
 /**
  * @Author:QiQuinn
@@ -37,7 +18,7 @@ import java.io.IOException;
  */
 public class PhoneCodeAuthenticationFilter extends AbstractAuthenticationProcessingFilter
 {
-    public static final String SPRING_SECURITY_FORM_PHONE_KEY = "PHONE";
+    public static final String SPRING_SECURITY_FORM_PHONE_KEY = "phone";
     private String userPhone = SPRING_SECURITY_FORM_PHONE_KEY;
     private boolean postOnly = true;
 
@@ -60,7 +41,6 @@ public class PhoneCodeAuthenticationFilter extends AbstractAuthenticationProcess
         }
     }
 
-
     protected String obtainPhone(HttpServletRequest request) {
         return request.getParameter(this.userPhone);
     }
@@ -81,4 +61,5 @@ public class PhoneCodeAuthenticationFilter extends AbstractAuthenticationProcess
     public final String getUserPhone() {
         return this.userPhone;
     }
+
 }

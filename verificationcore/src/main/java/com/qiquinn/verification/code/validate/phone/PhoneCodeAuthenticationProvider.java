@@ -1,4 +1,4 @@
-package com.qiquinn.verification.code.phone;
+package com.qiquinn.verification.code.validate.phone;
 
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.InternalAuthenticationServiceException;
@@ -16,10 +16,10 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 public class PhoneCodeAuthenticationProvider implements AuthenticationProvider
 {
     private UserDetailsService userDetailsService;
+
     @Override
     public Authentication authenticate(Authentication authentication) throws AuthenticationException {
         PhoneCodeAuthenticationToken authenticationToken = (PhoneCodeAuthenticationToken)authentication;
-
         UserDetails user = userDetailsService.loadUserByUsername(String.valueOf(authenticationToken.getPrincipal()));
         if(user == null)
         {
@@ -42,4 +42,5 @@ public class PhoneCodeAuthenticationProvider implements AuthenticationProvider
     public void setUserDetailsService(UserDetailsService userDetailsService) {
         this.userDetailsService = userDetailsService;
     }
+
 }

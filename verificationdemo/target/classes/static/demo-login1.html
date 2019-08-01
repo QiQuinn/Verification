@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo-Login1</title>
+</head>
+<body>
+    <h1>手机验证码登陆</h1>
+    <form action="/authentication/phone" method="post" id="login">
+        <div>
+            <label>手机号:</label>
+            <input type="text" name="phone" class="input" value="15111576543">
+        </div>
+        <div>
+            <label>手机验证码：</label>
+            <input type="text" name="phoneCode">
+            <a href="/code/phone?phone=15111576543">发送验证码</a>
+        </div>
+        <div><button type="submit" value="提交" >提交</button></div>
+    </form>
+    <H1>密码登陆</H1>
+    <form action="/authentication/form" method="post">
+        <div>
+            <label>用户名:</label>
+            <input type="text" name="username" class="input">
+        </div>
+        <div>
+            <label>密码：</label>
+            <input type="password" name="password" class="input">
+        </div>
+        <div>
+            <label>验证码：</label>
+            <input type="text" name="imagecode">
+            <img src="/code/image">
+        </div>
+        <div>
+            记住我<input type="checkbox" value="true" name="remember-me">
+        </div>
+        <div><button type="submit" value="提交" >提交</button></div>
+    </form>
+</body>
+</html>
