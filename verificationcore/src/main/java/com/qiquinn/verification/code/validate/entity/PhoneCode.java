@@ -1,4 +1,6 @@
-package com.qiquinn.verification.code;
+package com.qiquinn.verification.code.validate.entity;
+
+import com.qiquinn.verification.code.validate.entity.BaseCode;
 
 /**
  * @Author:QiQuinn

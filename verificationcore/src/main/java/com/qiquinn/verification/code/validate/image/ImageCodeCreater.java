@@ -1,9 +1,9 @@
-package com.qiquinn.verification.code;
+package com.qiquinn.verification.code.validate.image;
 
 import com.qiquinn.verification.ImageCodeUtils;
 import com.qiquinn.verification.code.api.ValiadateCodeGenerator;
+import com.qiquinn.verification.code.validate.entity.ImageCode;
 import com.qiquinn.verification.properties.SecurityCoreProperties;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.ServletRequestUtils;
 
 import javax.servlet.http.HttpServletRequest;

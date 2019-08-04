@@ -9,7 +9,7 @@ import org.springframework.security.web.authentication.AuthenticationSuccessHand
 
 /**
  * @Author:QiQuinn
- * @Desicription:
+ * @Desicription: 基本登陆请求配置
  * @Date:Created in 2019/8/1
  * @Modified By:
  */
@@ -23,8 +23,8 @@ public class BaseAbstractChannelSecurityConfig extends WebSecurityConfigurerAdap
     protected void applyPasswordAuthenticationConfig(HttpSecurity httpSecurity) throws Exception
     {
         httpSecurity.formLogin()
-                .loginPage(VerificationConstants.LOGIN_REQUERE_PATH)  //登陆请求
-                .loginProcessingUrl(VerificationConstants.LOGIN_PROCESSION_URL)
+                .loginPage(VerificationConstants.LOGIN_REQUERE_PATH)  //配置当请求需要身份验证时跳转URL
+                .loginProcessingUrl(VerificationConstants.LOGIN_PROCESSION_URL) //登陆表单请求
                 .successHandler(authenticationSuccessHandler)      //登陆成功处理器
                 .failureHandler(authenticationFailureHandler);     //认证错误处理中心
     }

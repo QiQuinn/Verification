@@ -1,8 +1,8 @@
-package com.qiquinn.verification.code;
+package com.qiquinn.verification.code.validate.entity;
 
-import java.awt.*;
+import com.qiquinn.verification.code.validate.entity.BaseCode;
+
 import java.awt.image.BufferedImage;
-import java.time.LocalDateTime;
 
 /**
  * @Author:QiQuinn

@@ -33,6 +33,7 @@ public class PhoneCodeAuthenticationConfiger extends SecurityConfigurerAdapter<D
     @Override
     public void configure(HttpSecurity http) throws Exception
     {
+        //手机登陆的filter
         PhoneCodeAuthenticationFilter phoneCodeAuthenticationFilter = new PhoneCodeAuthenticationFilter();
         phoneCodeAuthenticationFilter.setAuthenticationManager(http.getSharedObject(AuthenticationManager.class));
         phoneCodeAuthenticationFilter.setAuthenticationSuccessHandler(authenticationSuccessHandler);
@@ -48,6 +49,6 @@ public class PhoneCodeAuthenticationConfiger extends SecurityConfigurerAdapter<D
         http.authenticationProvider(provider)
                 .addFilterBefore(phoneCodeFilter,UsernamePasswordAuthenticationFilter.class)
                 .addFilterAfter(phoneCodeAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
-
     }
+
 }

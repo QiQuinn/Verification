@@ -1,10 +1,8 @@
 package com.qiquinn.verification.filter;
 
 import com.qiquinn.verification.VaildataException;
-import com.qiquinn.verification.code.PhoneCode;
-import com.qiquinn.verification.code.api.ValidateCodeProcessor;
+import com.qiquinn.verification.code.validate.entity.PhoneCode;
 import com.qiquinn.verification.code.impl.AbstractValidateProcessor;
-import com.qiquinn.verification.controller.VirificationImageController;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;

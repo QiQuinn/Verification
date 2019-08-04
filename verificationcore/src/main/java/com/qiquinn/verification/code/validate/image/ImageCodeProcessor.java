@@ -1,8 +1,7 @@
-package com.qiquinn.verification.code;
+package com.qiquinn.verification.code.validate.image;
 
-import com.qiquinn.verification.code.api.PhoneCodeSender;
 import com.qiquinn.verification.code.impl.AbstractValidateProcessor;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.qiquinn.verification.code.validate.entity.ImageCode;
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.ServletWebRequest;
 

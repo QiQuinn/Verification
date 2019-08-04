@@ -1,14 +1,12 @@
 package com.qiquinn.verification.filter;
 
 import com.qiquinn.verification.VaildataException;
-import com.qiquinn.verification.code.ImageCode;
+import com.qiquinn.verification.code.validate.entity.ImageCode;
 import com.qiquinn.verification.code.api.ValidateCodeProcessor;
-import com.qiquinn.verification.controller.VirificationImageController;
 import com.qiquinn.verification.properties.SecurityCoreProperties;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;
 import org.springframework.social.connect.web.HttpSessionSessionStrategy;
 import org.springframework.social.connect.web.SessionStrategy;

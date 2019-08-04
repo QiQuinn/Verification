@@ -1,7 +1,8 @@
-package com.qiquinn.verification.code;
+package com.qiquinn.verification.code.validate.phone;
 
 import com.qiquinn.verification.code.api.PhoneCodeSender;
 import com.qiquinn.verification.code.impl.AbstractValidateProcessor;
+import com.qiquinn.verification.code.validate.entity.PhoneCode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.social.connect.web.HttpSessionSessionStrategy;
 import org.springframework.social.connect.web.SessionStrategy;
@@ -16,7 +17,8 @@ import org.springframework.web.context.request.ServletWebRequest;
  * @Modified By:
  */
 @Component("phoneCodeProcessor")
-public class PhoneCodeProcessor extends AbstractValidateProcessor<PhoneCode> {
+public class PhoneCodeProcessor extends AbstractValidateProcessor<PhoneCode>
+{
     @Autowired
     private PhoneCodeSender phoneCodeSender;
     private SessionStrategy sessionStrategy = new HttpSessionSessionStrategy();

@@ -1,7 +1,8 @@
-package com.qiquinn.verification.code;
+package com.qiquinn.verification.code.validate.phone;
 
-import com.qiquinn.verification.code.BaseCode;
+import com.qiquinn.verification.code.validate.entity.BaseCode;
 import com.qiquinn.verification.code.api.ValiadateCodeGenerator;
+import com.qiquinn.verification.code.validate.entity.PhoneCode;
 import com.qiquinn.verification.properties.SecurityCoreProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

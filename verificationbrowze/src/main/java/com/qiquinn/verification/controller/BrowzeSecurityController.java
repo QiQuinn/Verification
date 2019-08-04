@@ -1,5 +1,6 @@
 package com.qiquinn.verification.controller;
 
+import com.qiquinn.verification.VerificationConstants;
 import com.qiquinn.verification.properties.SecurityCoreProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -39,7 +40,7 @@ public class BrowzeSecurityController
       *@return java.lang.String
       * @Modified By:
       */
-    @RequestMapping("/authentication/require")
+    @RequestMapping(VerificationConstants.LOGIN_REQUERE_PATH)
     @ResponseStatus(code = HttpStatus.UNAUTHORIZED)
     public String requestAuthentication(HttpServletRequest request, HttpServletResponse response) throws IOException
     {
@@ -50,7 +51,6 @@ public class BrowzeSecurityController
             System.out.println("引发跳转的URL: "+target);
             if(StringUtils.endsWithIgnoreCase(target,".html"))
             {
-                System.out.println("只能一级调用.html: "+ securityCoreProperties.getBrowze().getLoginPage());
                 redirectStrategy.sendRedirect(request,response, securityCoreProperties.getBrowze().getLoginPage());
             }
         }

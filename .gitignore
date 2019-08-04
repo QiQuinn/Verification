@@ -4,3 +4,6 @@
 *.class
 verificationcore/target/classes/META-INF/spring-configuration-metadata.json
 /target/
+*.lst
+*.iml
+*.jar

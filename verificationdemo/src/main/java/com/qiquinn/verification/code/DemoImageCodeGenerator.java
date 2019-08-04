@@ -1,6 +1,7 @@
 package com.qiquinn.verification.code;
 
 import com.qiquinn.verification.code.api.ValiadateCodeGenerator;
+import com.qiquinn.verification.code.validate.entity.ImageCode;
 
 import javax.servlet.http.HttpServletRequest;
 

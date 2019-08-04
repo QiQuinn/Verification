@@ -1,6 +1,6 @@
 package com.qiquinn.verification.code.api;
 
-import com.qiquinn.verification.code.BaseCode;
+import com.qiquinn.verification.code.validate.entity.BaseCode;
 
 import javax.servlet.http.HttpServletRequest;
 

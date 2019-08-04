@@ -1,8 +1,8 @@
 package com.qiquinn.verification.configuration;
 
-import com.qiquinn.verification.code.DefualtPhoneSender;
-import com.qiquinn.verification.code.ImageCodeCreater;
-import com.qiquinn.verification.code.PhoneCodeCreater;
+import com.qiquinn.verification.code.validate.phone.DefualtPhoneSender;
+import com.qiquinn.verification.code.validate.image.ImageCodeCreater;
+import com.qiquinn.verification.code.validate.phone.PhoneCodeCreater;
 import com.qiquinn.verification.code.api.PhoneCodeSender;
 import com.qiquinn.verification.code.api.ValiadateCodeGenerator;
 import com.qiquinn.verification.properties.SecurityCoreProperties;

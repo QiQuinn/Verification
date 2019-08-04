@@ -22,8 +22,6 @@ import org.springframework.stereotype.Component;
 public class ImageCodeAuthenticationConfiger extends SecurityConfigurerAdapter<DefaultSecurityFilterChain,HttpSecurity>
 {
     @Autowired
-    private UserDetailsService userDetailsService;
-    @Autowired
     private AuthenticationSuccessHandler browzeAuthenticationSuccessHandler;
     @Autowired
     private AuthenticationFailureHandler browzeAuthenticationFailedHandler;

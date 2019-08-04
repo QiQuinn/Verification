@@ -4,23 +4,18 @@ import com.qiquinn.verification.VerificationConstants;
 import com.qiquinn.verification.code.validate.image.ImageCodeAuthenticationConfiger;
 import com.qiquinn.verification.configuration.BaseAbstractChannelSecurityConfig;
 import com.qiquinn.verification.configuration.PhoneCodeAuthenticationConfiger;
-import com.qiquinn.verification.filter.PhoneCodeFilter;
-import com.qiquinn.verification.filter.VirificationImageFilter;
 import com.qiquinn.verification.properties.SecurityCoreProperties;
 import org.apache.tomcat.jdbc.pool.DataSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
-import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.security.web.authentication.AuthenticationFailureHandler;
-import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
-import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.security.web.authentication.rememberme.JdbcTokenRepositoryImpl;
 import org.springframework.security.web.authentication.rememberme.PersistentTokenRepository;
+import org.springframework.social.security.SpringSocialConfigurer;
 
 /**
  * @Author:QiQuinn
@@ -41,6 +36,9 @@ public class BrowserSercurityConfig extends BaseAbstractChannelSecurityConfig
     private PhoneCodeAuthenticationConfiger phoneCodeAuthenticationConfiger;
     @Autowired
     private ImageCodeAuthenticationConfiger imageCodeAuthenticationConfiger;
+    @Autowired
+    private SpringSocialConfigurer springSocialConfigurer;
+
     @Bean
     public PasswordEncoder passwordEncoder()
     {
@@ -63,6 +61,8 @@ public class BrowserSercurityConfig extends BaseAbstractChannelSecurityConfig
         /* 表单登陆验证，对所欲请求添加 */
         http.apply(phoneCodeAuthenticationConfiger) //加入短信验证码登陆
                 .and()
+                .apply(springSocialConfigurer)
+                .and()
                 .apply(imageCodeAuthenticationConfiger)
                 .and() //配置记住我的功能
                     .rememberMe()
@@ -75,6 +75,8 @@ public class BrowserSercurityConfig extends BaseAbstractChannelSecurityConfig
                     .antMatchers(VerificationConstants.LOGIN_REQUERE_PATH
                             ,VerificationConstants.LOGIN_AUTHNTICATION_PHONE
                             ,VerificationConstants.IGNORE_PATH
+                            ,VerificationConstants.LOGIN_QQ_AUTHORIZE
+                            ,VerificationConstants.LOGIN_QQ_TOKEN
                             , securityCoreProperties.getBrowze().getLoginPage()).permitAll()
                     .anyRequest()  //对所有请求都拦截
                     .authenticated()

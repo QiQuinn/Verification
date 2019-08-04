@@ -1,4 +1,4 @@
-package com.qiquinn.verification.code;
+package com.qiquinn.verification.code.validate.phone;
 
 import com.qiquinn.verification.code.api.PhoneCodeSender;
 
