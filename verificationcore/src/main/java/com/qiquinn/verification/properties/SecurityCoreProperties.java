@@ -1,5 +1,8 @@
 package com.qiquinn.verification.properties;
 
+import com.qiquinn.verification.properties.login.BrowzeProperties;
+import com.qiquinn.verification.properties.login.social.SocialProperties;
+import com.qiquinn.verification.properties.login.validatecimge.ValidateCodeProperties;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**

@@ -1,6 +1,4 @@
-package com.qiquinn.verification.properties;
-
-import org.springframework.beans.factory.annotation.Value;
+package com.qiquinn.verification.properties.login.validatecimge;
 
 /**
  * @Author:QiQuinn

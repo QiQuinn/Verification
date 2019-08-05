@@ -2,7 +2,6 @@ package com.qiquinn.verification.code.social.qq;
 
 import com.qiquinn.verification.VerificationConstants;
 import org.springframework.social.oauth2.AbstractOAuth2ServiceProvider;
-import org.springframework.social.oauth2.OAuth2Template;
 
 /**
  * @Author:QiQuinn
@@ -15,7 +14,7 @@ public class QQServiceProvider extends AbstractOAuth2ServiceProvider<QQ> {
     private String appId;
 
     public QQServiceProvider(String appId,String appSecrety) {
-        super(new OAuth2Template(appId,appSecrety, VerificationConstants.LOGIN_QQ_AUTHORIZE,VerificationConstants.LOGIN_QQ_TOKEN));
+        super(new QQOAuth2Template(appId,appSecrety, VerificationConstants.LOGIN_QQ_AUTHORIZE,VerificationConstants.LOGIN_QQ_TOKEN));
         this.appId = appId;
     }
 

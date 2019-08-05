@@ -1,4 +1,4 @@
-package com.qiquinn.verification.properties;
+package com.qiquinn.verification.properties.login.validatecimge;
 
 /**
  * @Author:QiQuinn

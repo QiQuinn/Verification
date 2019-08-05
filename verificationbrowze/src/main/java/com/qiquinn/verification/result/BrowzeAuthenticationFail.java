@@ -1,7 +1,7 @@
 package com.qiquinn.verification.result;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.qiquinn.verification.properties.LoginResultType;
+import com.qiquinn.verification.properties.login.LoginResultType;
 import com.qiquinn.verification.properties.SecurityCoreProperties;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

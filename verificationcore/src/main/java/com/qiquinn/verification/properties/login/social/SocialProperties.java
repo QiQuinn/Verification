@@ -1,4 +1,4 @@
-package com.qiquinn.verification.properties;
+package com.qiquinn.verification.properties.login.social;
 
 /**
  * @Author:QiQuinn
@@ -12,6 +12,16 @@ public class SocialProperties
     private String filterProcessesUrl = "/auth";
 
     private QQProperties qq = new QQProperties();
+
+    private WechatProperties wechat = new WechatProperties();
+
+    public WechatProperties getWechat() {
+        return wechat;
+    }
+
+    public void setWechat(WechatProperties wechat) {
+        this.wechat = wechat;
+    }
 
     public String getFilterProcessesUrl() {
         return filterProcessesUrl;

@@ -1,7 +1,7 @@
 package com.qiquinn.verification.configuration;
 
 import com.qiquinn.verification.code.social.qq.QQConnectionFactory;
-import com.qiquinn.verification.properties.QQProperties;
+import com.qiquinn.verification.properties.login.social.QQProperties;
 import com.qiquinn.verification.properties.SecurityCoreProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;

@@ -77,6 +77,8 @@ public class BrowserSercurityConfig extends BaseAbstractChannelSecurityConfig
                             ,VerificationConstants.IGNORE_PATH
                             ,VerificationConstants.LOGIN_QQ_AUTHORIZE
                             ,VerificationConstants.LOGIN_QQ_TOKEN
+                            ,"/user/regist"
+                            ,securityCoreProperties.getBrowze().getSignUpUrl()
                             , securityCoreProperties.getBrowze().getLoginPage()).permitAll()
                     .anyRequest()  //对所有请求都拦截
                     .authenticated()

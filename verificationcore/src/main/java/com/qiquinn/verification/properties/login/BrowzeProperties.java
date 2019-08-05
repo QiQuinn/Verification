@@ -1,7 +1,6 @@
-package com.qiquinn.verification.properties;
+package com.qiquinn.verification.properties.login;
 
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.context.properties.ConfigurationProperties;
+import com.qiquinn.verification.properties.login.LoginResultType;
 
 /**
  * @Author:QiQuinn
@@ -12,6 +11,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 public class BrowzeProperties
 {
     private String loginPage = "/demo-login.html";
+    private String signUpUrl = "/regist.html";
     private Integer rememberMeTime = 300;
     private LoginResultType loginResultType = LoginResultType.JSON;
 
@@ -37,5 +37,13 @@ public class BrowzeProperties
 
     public void setRememberMeTime(Integer rememberMeTime) {
         this.rememberMeTime = rememberMeTime;
+    }
+
+    public String getSignUpUrl() {
+        return signUpUrl;
+    }
+
+    public void setSignUpUrl(String signUpUrl) {
+        this.signUpUrl = signUpUrl;
     }
 }

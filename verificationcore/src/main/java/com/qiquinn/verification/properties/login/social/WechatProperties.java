@@ -1,17 +1,16 @@
-package com.qiquinn.verification.properties;
+package com.qiquinn.verification.properties.login.social;
 
 import org.springframework.boot.autoconfigure.social.SocialProperties;
-
 /**
  * @Author:QiQuinn
  * @Desicription:
- * @Date:Created in 2019/8/1
+ * @Date:Created in 2019/8/5
  * @Modified By:
  */
 
-public class QQProperties extends SocialProperties
+public class WechatProperties extends SocialProperties
 {
-    private String providerId = "qq";
+    private String providerId = "wechat";
 
     public String getProviderId() {
         return providerId;

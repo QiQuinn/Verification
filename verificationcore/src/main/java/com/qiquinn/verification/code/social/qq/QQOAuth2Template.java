@@ -4,7 +4,6 @@ import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.converter.StringHttpMessageConverter;
-import org.springframework.social.connect.support.OAuth2Connection;
 import org.springframework.social.oauth2.AccessGrant;
 import org.springframework.social.oauth2.OAuth2Template;
 import org.springframework.util.MultiValueMap;
@@ -24,6 +23,7 @@ public class QQOAuth2Template extends OAuth2Template
 
     public QQOAuth2Template(String clientId, String clientSecret, String authorizeUrl, String accessTokenUrl) {
         super(clientId, clientSecret, authorizeUrl, accessTokenUrl);
+        setUseParametersForClientAuthentication(true); //需要设置否则不糊带着client_id
     }
 
     @Override
@@ -41,8 +41,9 @@ public class QQOAuth2Template extends OAuth2Template
 
         return new AccessGrant(accessToken, null, refreshToken, expiresIn);
     }
+
     /**
-     * 坑，日志debug模式才打印出来 处理qq返回的text/html 类型数据
+     * 坑的一匹，日志debug模式才打印出来 处理qq返回的text/html不是jason
      *
      * @return
      */
