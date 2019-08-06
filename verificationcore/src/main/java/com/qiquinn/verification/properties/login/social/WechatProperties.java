@@ -1,5 +1,6 @@
 package com.qiquinn.verification.properties.login.social;
 
+import com.qiquinn.verification.VerificationConstants;
 import org.springframework.boot.autoconfigure.social.SocialProperties;
 /**
  * @Author:QiQuinn
@@ -10,7 +11,7 @@ import org.springframework.boot.autoconfigure.social.SocialProperties;
 
 public class WechatProperties extends SocialProperties
 {
-    private String providerId = "wechat";
+    private String providerId = VerificationConstants.LOGIN_SOCIAL_WECHAT_PROVIDER_ID;
 
     public String getProviderId() {
         return providerId;

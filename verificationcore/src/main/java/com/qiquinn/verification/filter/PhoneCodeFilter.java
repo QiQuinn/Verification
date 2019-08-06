@@ -1,6 +1,7 @@
 package com.qiquinn.verification.filter;
 
 import com.qiquinn.verification.VaildataException;
+import com.qiquinn.verification.VerificationConstants;
 import com.qiquinn.verification.code.validate.entity.PhoneCode;
 import com.qiquinn.verification.code.impl.AbstractValidateProcessor;
 import org.apache.commons.lang.StringUtils;
@@ -29,12 +30,11 @@ public class PhoneCodeFilter extends OncePerRequestFilter
 {
     @Autowired
     private AuthenticationFailureHandler authenticationFailureHandler;
-    private final String url = "/authentication/phone";
     private SessionStrategy sessionStrategy = new HttpSessionSessionStrategy();
 
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
-        if(url.equals(request.getRequestURI()))
+        if(VerificationConstants.LOGIN_AUTHNTICATION_PHONE.equals(request.getRequestURI()))
         {
             try
             {
@@ -83,9 +83,6 @@ public class PhoneCodeFilter extends OncePerRequestFilter
         this.authenticationFailureHandler = authenticationFailureHandler;
     }
 
-    public String getUrl() {
-        return url;
-    }
 
     public SessionStrategy getSessionStrategy() {
         return sessionStrategy;

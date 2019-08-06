@@ -1,6 +1,6 @@
 package com.qiquinn.verification.code.impl;
 
-import com.qiquinn.verification.code.api.ValiadateCodeGenerator;
+import com.qiquinn.verification.code.api.ValiadateCodeCreater;
 import com.qiquinn.verification.code.api.ValidateCodeProcessor;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,12 +8,11 @@ import org.springframework.social.connect.web.HttpSessionSessionStrategy;
 import org.springframework.social.connect.web.SessionStrategy;
 import org.springframework.web.context.request.ServletWebRequest;
 
-import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
 
 /**
  * @Author:QiQuinn
- * @Desicription:
+ * @Desicription:  验证码生成抽象类(有业务逻辑)
  * @Date:Created in 2019/7/31
  * @Modified By:
  */
@@ -22,7 +21,7 @@ public abstract class AbstractValidateProcessor<T> implements ValidateCodeProces
     private SessionStrategy sessionStrategy = new HttpSessionSessionStrategy();
     //依赖搜索
     @Autowired
-    private Map<String,ValiadateCodeGenerator> valiaDateGeneratorMap;
+    private Map<String,ValiadateCodeCreater> valiaDateGeneratorMap;
 
     @Override
     public void createCode(ServletWebRequest request) throws Exception {
@@ -39,7 +38,7 @@ public abstract class AbstractValidateProcessor<T> implements ValidateCodeProces
     private T generate(ServletWebRequest request)
     {
         String type = getProcessorType(request);
-        ValiadateCodeGenerator valiadateCodeGenerator = valiaDateGeneratorMap.get(type+"CodeCreater");
+        ValiadateCodeCreater valiadateCodeGenerator = valiaDateGeneratorMap.get(type+"CodeCreater");
         return (T) valiadateCodeGenerator.createCode(request.getRequest());
     }
 

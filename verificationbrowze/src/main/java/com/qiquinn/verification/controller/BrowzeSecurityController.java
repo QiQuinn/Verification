@@ -76,4 +76,11 @@ public class BrowzeSecurityController
         return userInfo;
     }
 
+    @GetMapping("/session/invalid")
+    @ResponseStatus(code = HttpStatus.UNAUTHORIZED)
+    public String sessionInvalided()
+    {
+        return "session失效";
+    }
+
 }

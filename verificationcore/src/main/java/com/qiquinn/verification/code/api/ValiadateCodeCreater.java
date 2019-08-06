@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
  * @Date:Created in 2019/7/30
  * @Modified By:
  */
-public interface ValiadateCodeGenerator
+public interface ValiadateCodeCreater
 {
     BaseCode createCode(HttpServletRequest request);
 }

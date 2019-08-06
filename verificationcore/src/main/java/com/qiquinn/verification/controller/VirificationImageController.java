@@ -6,6 +6,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.context.request.ServletWebRequest;
 
@@ -20,15 +21,14 @@ import java.util.Map;
  * @Modified By:
  */
 @RestController
+@RequestMapping("/code")
 public class VirificationImageController {
 
     private Logger log = LoggerFactory.getLogger(VirificationImageController.class);
-    public static final String SESSION_IMAGECODE_KEY = "IAMGECODE";
-    public static final String SESSION_PHONECODE_KEY = "PHONECODE";
     @Autowired
     private Map<String,ValidateCodeProcessor> validateCodeProcessors;
 
-    @GetMapping("/code/{type}")
+    @GetMapping("/{type}")
     public void createCode(HttpServletRequest request, HttpServletResponse response,@PathVariable String type) {
         try {
             ValidateCodeProcessor calidate = validateCodeProcessors.get(type + "CodeProcessor");

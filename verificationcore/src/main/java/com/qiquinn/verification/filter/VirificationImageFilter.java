@@ -1,6 +1,7 @@
 package com.qiquinn.verification.filter;
 
 import com.qiquinn.verification.VaildataException;
+import com.qiquinn.verification.VerificationConstants;
 import com.qiquinn.verification.code.validate.entity.ImageCode;
 import com.qiquinn.verification.code.api.ValidateCodeProcessor;
 import com.qiquinn.verification.properties.SecurityCoreProperties;
@@ -33,7 +34,6 @@ import java.util.Set;
 public class VirificationImageFilter extends OncePerRequestFilter implements InitializingBean{
     @Autowired
     private AuthenticationFailureHandler authenticationFailureHandler;
-    private final String LoginTableUrl = "/authentication/form";
     private SessionStrategy sessionStrategy = new HttpSessionSessionStrategy();
     @Autowired
     private SecurityCoreProperties securityCoreProperties;
@@ -54,7 +54,7 @@ public class VirificationImageFilter extends OncePerRequestFilter implements Ini
                 urls.add(url);
             }
         }
-        urls.add(LoginTableUrl); //表单登陆请求要来验证验证码
+        urls.add(VerificationConstants.LOGIN_PROCESSION_URL); //表单登陆请求要来验证验证码
     }
 
     @Override
@@ -115,9 +115,6 @@ public class VirificationImageFilter extends OncePerRequestFilter implements Ini
         this.authenticationFailureHandler = authenticationFailureHandler;
     }
 
-    public String getLoginTableUrl() {
-        return LoginTableUrl;
-    }
 
     public SessionStrategy getSessionStrategy() {
         return sessionStrategy;

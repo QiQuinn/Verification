@@ -1,6 +1,7 @@
 package com.qiquinn.verification.configer;
 
 import com.qiquinn.verification.VerificationConstants;
+import com.qiquinn.verification.code.SocialSession;
 import com.qiquinn.verification.code.validate.image.ImageCodeAuthenticationConfiger;
 import com.qiquinn.verification.configuration.BaseAbstractChannelSecurityConfig;
 import com.qiquinn.verification.configuration.PhoneCodeAuthenticationConfiger;
@@ -61,9 +62,9 @@ public class BrowserSercurityConfig extends BaseAbstractChannelSecurityConfig
         /* 表单登陆验证，对所欲请求添加 */
         http.apply(phoneCodeAuthenticationConfiger) //加入短信验证码登陆
                 .and()
-                .apply(springSocialConfigurer)
+                    .apply(springSocialConfigurer)
                 .and()
-                .apply(imageCodeAuthenticationConfiger)
+                    .apply(imageCodeAuthenticationConfiger)
                 .and() //配置记住我的功能
                     .rememberMe()
                         .tokenRepository(persistentTokenRepository())
@@ -77,11 +78,18 @@ public class BrowserSercurityConfig extends BaseAbstractChannelSecurityConfig
                             ,VerificationConstants.IGNORE_PATH
                             ,VerificationConstants.LOGIN_QQ_AUTHORIZE
                             ,VerificationConstants.LOGIN_QQ_TOKEN
-                            ,"/user/regist"
+                            ,VerificationConstants.LOGIN_REGIST_URL
+                            ,VerificationConstants.INVALID_SESSION_URL
                             ,securityCoreProperties.getBrowze().getSignUpUrl()
                             , securityCoreProperties.getBrowze().getLoginPage()).permitAll()
                     .anyRequest()  //对所有请求都拦截
                     .authenticated()
+                .and()
+                .sessionManagement()
+                    .invalidSessionUrl(securityCoreProperties.getBrowze().getSession().getSessionInvalidUrl())  //session过期跳转
+                    .maximumSessions(securityCoreProperties.getBrowze().getSession().getMaxSessionExisted())
+                    .expiredSessionStrategy(new SocialSession())  //session冲突后的操作
+                .and()
                 .and()
                     .csrf().disable(); //关闭浏览器防护
     }

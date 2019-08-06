@@ -1,5 +1,7 @@
 package com.qiquinn.verification.properties.login.social;
 
+import com.qiquinn.verification.VerificationConstants;
+
 /**
  * @Author:QiQuinn
  * @Desicription:
@@ -9,7 +11,7 @@ package com.qiquinn.verification.properties.login.social;
 
 public class SocialProperties
 {
-    private String filterProcessesUrl = "/auth";
+    private String filterProcessesUrl = VerificationConstants.LOGIN_SOCIAL_DEFUALT_FILTER_URL;
 
     private QQProperties qq = new QQProperties();
 

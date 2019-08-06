@@ -14,7 +14,14 @@ public class BrowzeProperties
     private String signUpUrl = "/regist.html";
     private Integer rememberMeTime = 300;
     private LoginResultType loginResultType = LoginResultType.JSON;
+    private SessionPropreties session = new SessionPropreties();
 
+    public SessionPropreties getSession() {
+        return session;
+    }
+    public void setSession(SessionPropreties session) {
+        this.session = session;
+    }
     public LoginResultType getLoginResultType() {
         return loginResultType;
     }

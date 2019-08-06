@@ -3,6 +3,8 @@ package com.qiquinn.verification.code.validate.phone;
 import com.qiquinn.verification.code.api.PhoneCodeSender;
 import com.qiquinn.verification.code.impl.AbstractValidateProcessor;
 import com.qiquinn.verification.code.validate.entity.PhoneCode;
+import com.qiquinn.verification.properties.SecurityCoreProperties;
+import com.qiquinn.verification.properties.login.validatecimge.PhoneCodeProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.social.connect.web.HttpSessionSessionStrategy;
 import org.springframework.social.connect.web.SessionStrategy;
@@ -22,12 +24,16 @@ public class PhoneCodeProcessor extends AbstractValidateProcessor<PhoneCode>
     @Autowired
     private PhoneCodeSender phoneCodeSender;
     private SessionStrategy sessionStrategy = new HttpSessionSessionStrategy();
+    @Autowired
+    private SecurityCoreProperties securityCoreProperties;
+
     @Override
     protected void send(ServletWebRequest request, PhoneCode codeObject) throws Exception
     {
         String phone = ServletRequestUtils.getRequiredStringParameter(request.getRequest(),"phone");
         codeObject.setPhoneNumber(phone);
         sessionStrategy.setAttribute(request,SESSION_KEY_PREFIX+"PHONE",codeObject);
-        phoneCodeSender.Send(phone,codeObject.getCode());
+        PhoneCodeProperties properties = securityCoreProperties.getValidate().getPhonecode();
+        phoneCodeSender.Send(phone,codeObject.getCode(),properties.getSid(),properties.getToken(),properties.getAppId());
     }
 }

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的注册页面</title>
+</head>
+<body>
+    <H2>注册</H2>
+    <form action="/user/regist" method="post">
+        <div>
+            <label>用户名:</label>
+            <input type="text" name="username" class="input">
+        </div>
+        <div>
+            <label>密码：</label>
+            <input type="password" name="password" class="input">
+        </div>
+        <div>
+            <label>验证码：</label>
+            <input type="text" name="imagecode">
+            <img src="/code/image">
+        </div>
+        <div><button type="submit" value="regist" name="type">提交</button></div>
+        <div><button type="submit" value="binding" name="type" >绑定</button></div>
+    </form>
+</body>
+</html>

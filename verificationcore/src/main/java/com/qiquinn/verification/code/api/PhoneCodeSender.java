@@ -7,5 +7,5 @@ package com.qiquinn.verification.code.api;
  * @Modified By:
  */
 public interface PhoneCodeSender {
-    public void Send(String phoneNumber,String code);
+    void Send(String phoneNumber, String code,String sid,String token,String appId);
 }

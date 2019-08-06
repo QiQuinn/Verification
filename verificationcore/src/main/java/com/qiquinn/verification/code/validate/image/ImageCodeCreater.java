@@ -1,7 +1,7 @@
 package com.qiquinn.verification.code.validate.image;
 
 import com.qiquinn.verification.ImageCodeUtils;
-import com.qiquinn.verification.code.api.ValiadateCodeGenerator;
+import com.qiquinn.verification.code.api.ValiadateCodeCreater;
 import com.qiquinn.verification.code.validate.entity.ImageCode;
 import com.qiquinn.verification.properties.SecurityCoreProperties;
 import org.springframework.web.bind.ServletRequestUtils;
@@ -15,7 +15,7 @@ import java.awt.image.BufferedImage;
  * @Date:Created in 2019/7/30
  * @Modified By:
  */
-public class ImageCodeCreater implements ValiadateCodeGenerator
+public class ImageCodeCreater implements ValiadateCodeCreater
 {
     private SecurityCoreProperties securityCoreProperties;
     @Override

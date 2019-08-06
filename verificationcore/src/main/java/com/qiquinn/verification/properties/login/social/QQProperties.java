@@ -1,5 +1,6 @@
 package com.qiquinn.verification.properties.login.social;
 
+import com.qiquinn.verification.VerificationConstants;
 import org.springframework.boot.autoconfigure.social.SocialProperties;
 
 /**
@@ -11,7 +12,7 @@ import org.springframework.boot.autoconfigure.social.SocialProperties;
 
 public class QQProperties extends SocialProperties
 {
-    private String providerId = "qq";
+    private String providerId = VerificationConstants.LOGIN_SOCIAL_QQ_PROVIDER_ID;
 
     public String getProviderId() {
         return providerId;

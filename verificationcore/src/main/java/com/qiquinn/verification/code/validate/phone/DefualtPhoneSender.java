@@ -1,6 +1,10 @@
 package com.qiquinn.verification.code.validate.phone;
 
 import com.qiquinn.verification.code.api.PhoneCodeSender;
+import com.qiquinn.verification.properties.SecurityCoreProperties;
+import com.qiquinn.verification.properties.login.validatecimge.PhoneCodeProperties;
+import com.qiquinn.verification.utils.http.JsonReqClient;
+import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * @Author:QiQuinn
@@ -10,9 +14,17 @@ import com.qiquinn.verification.code.api.PhoneCodeSender;
  */
 public class DefualtPhoneSender implements PhoneCodeSender
 {
+    private JsonReqClient jsonReqClient = new JsonReqClient();
+
     @Override
-    public void Send(String phoneNumber, String code)
+    public void Send(String phoneNumber, String code,String sid,String token,String appId)
     {
-        System.out.println("手机号： "+phoneNumber+" , 验证码: "+code);
+        try {
+
+            String result=jsonReqClient.sendSms(sid,token,appId,"491335", code, phoneNumber, "123123");
+            System.out.println("Response content is: " + result);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }

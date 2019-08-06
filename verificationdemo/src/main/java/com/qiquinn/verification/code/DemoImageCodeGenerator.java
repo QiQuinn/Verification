@@ -1,6 +1,6 @@
 package com.qiquinn.verification.code;
 
-import com.qiquinn.verification.code.api.ValiadateCodeGenerator;
+import com.qiquinn.verification.code.api.ValiadateCodeCreater;
 import com.qiquinn.verification.code.validate.entity.ImageCode;
 
 import javax.servlet.http.HttpServletRequest;
@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
  * @Date:Created in 2019/7/31
  * @Modified By:
  */
-public class DemoImageCodeGenerator implements ValiadateCodeGenerator
+public class DemoImageCodeGenerator implements ValiadateCodeCreater
 {
     @Override
     public ImageCode createCode(HttpServletRequest request) {

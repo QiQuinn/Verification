@@ -1,9 +1,10 @@
 package com.qiquinn.verification.code.validate.phone;
 
 import com.qiquinn.verification.code.validate.entity.BaseCode;
-import com.qiquinn.verification.code.api.ValiadateCodeGenerator;
+import com.qiquinn.verification.code.api.ValiadateCodeCreater;
 import com.qiquinn.verification.code.validate.entity.PhoneCode;
 import com.qiquinn.verification.properties.SecurityCoreProperties;
+import com.qiquinn.verification.properties.login.validatecimge.PhoneCodeProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -17,7 +18,7 @@ import java.util.Random;
  * @Modified By:
  */
 @Component("phoneCodeCreater")
-public class PhoneCodeCreater implements ValiadateCodeGenerator {
+public class PhoneCodeCreater implements ValiadateCodeCreater {
 
     @Autowired
     private SecurityCoreProperties securityCoreProperties;
@@ -25,6 +26,7 @@ public class PhoneCodeCreater implements ValiadateCodeGenerator {
     @Override
     public BaseCode createCode(HttpServletRequest request)
     {
+        PhoneCodeProperties phone = securityCoreProperties.getValidate().getPhonecode();
         int count = securityCoreProperties.getValidate().getPhonecode().getCount();
         int loseTime = securityCoreProperties.getValidate().getPhonecode().getLoseTime();
         String code = getRamdomNumber(count);
